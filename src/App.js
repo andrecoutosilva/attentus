@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './attentus_logo.png';
+import whoarewe from './whoarewe.png';
 import './App.css';
 
 class App extends Component {
@@ -40,9 +41,54 @@ class App extends Component {
                   </div>
                 </div>
               </div>
+              <div className="row">
+                <div className="col">
+                  <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
+                </div>
+                <div className="col">
+                  <header className="mt-5 text-right">
+                    <h1>Quem somos</h1>
+                  </header>
+                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+crescimento harmonioso e do bem-estar da pessoa.
+Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
+uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
+                  <button>Ler mais...</button>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <header className="mt-5 text-left">
+                    <h1>Serviços</h1>
+                  </header>
+                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+crescimento harmonioso e do bem-estar da pessoa.
+Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
+uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
+                  <button>Ler mais...</button>
+                </div>
+                <div className="col">
+                  <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
+                </div>
+              </div>
+              <div className="row">
+              <div className="col">
+                  <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
+                </div>
+                <div className="col">
+                  <header className="mt-5 text-left">
+                    <h1>Equipa</h1>
+                  </header>
+                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+crescimento harmonioso e do bem-estar da pessoa.
+Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
+uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
+                  <button>Ler mais...</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </div>        
       </div>
     );
   }
