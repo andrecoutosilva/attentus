@@ -41,50 +41,52 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col">
+              <div className="row flex-fill landing-bottom-row">
+              <div className="row pt-3">
+                <div className="col coluna1 d-flex h-100" >
                   <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
                 </div>
-                <div className="col">
-                  <header className="mt-5 text-right">
-                    <h1>Quem somos</h1>
-                  </header>
-                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+                <div className="col pl-4 pr-5 py-4 coluna2">
+                  <h1 className="text-left"><strong>Quem somos</strong></h1>
+                  <p className="text-section text-left">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
 crescimento harmonioso e do bem-estar da pessoa.
 Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
 uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
-                  <button>Ler mais...</button>
+                  <div className="text-right">
+                    <button type="button" class="btn btn-outline-primary">Ler mais...</button>
+                  </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col">
-                  <header className="mt-5 text-left">
-                    <h1>Serviços</h1>
-                  </header>
-                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+              <div className="row pt-3">
+                <div className="col pl-5 pr-4 py-4 coluna2">
+                  <h1 className="text-left"><strong>Serviços</strong></h1>
+                  <p className="text-section text-left">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
 crescimento harmonioso e do bem-estar da pessoa.
 Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
 uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
-                  <button>Ler mais...</button>
+                  <div className="text-right">
+                    <button type="button" class="btn btn-outline-primary">Ler mais...</button>
+                  </div>
                 </div>
-                <div className="col">
+                <div className="col d-flex h-100 coluna1">
                   <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
                 </div>
               </div>
-              <div className="row">
-              <div className="col">
+              <div className="row pt-3">
+              <div className="col coluna1 d-flex h-100" >
                   <img src={whoarewe} alt="Quem Somos" className="section-logo-1" height="300" width="300"/>
                 </div>
-                <div className="col">
-                  <header className="mt-5 text-left">
-                    <h1>Equipa</h1>
-                  </header>
-                  <p className="text-section">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
+                <div className="col px-4 py-4 coluna2">
+                  <h1 className="text-left"><strong>Equipa</strong></h1>
+                  <p className="text-section text-left">A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do
 crescimento harmonioso e do bem-estar da pessoa.
 Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com
 uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.</p>
-                  <button>Ler mais...</button>
+                  <div className="text-right">
+                    <button type="button" class="btn btn-outline-primary">Ler mais...</button>
+                  </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

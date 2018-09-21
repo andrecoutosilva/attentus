@@ -72,3 +72,18 @@ p {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.section-logo-1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 
+.coluna1{
+   background-color: yellow
+}
+
+.coluna2 {
+  background-color: orangered;
+} */
