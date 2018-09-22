@@ -4,68 +4,8 @@
   text-align: center;
   background-color: brown;
   background-image: url("background.jpg");
-}
-
-.App-header {
-  height: 350px;
-  padding: 20px;
-}
-
-.App-header img {
-  max-width: 100%;
-  height: auto;
-}
-
-.App-title {
-  font-size: 1.5em;
-  font-family: 'Bitter', serif;
-}
-
-.App-intro {
-  font-size: large;
-}
-/* 
-.landing-background {
-  height: 100vh;
-} */
-
-.landing-page {
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
-  -moz-box-shadow: 10px 5px 10px rgba(0, 0, 0, .5);
-  -webkit-box-shadow: 10px 5px 10px rgba(0, 0, 0, .5);
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, .5);
-}
-
-.landing-bottom-row {
-  background-color: #efefef;
-  padding: 1.5rem;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.landing-bottom-row .card {
-  border-left-color: brown;
-  border-left-style: solid;
-  border-left-width: 5px;
-  min-height: 200px;
-  margin-top: 10px;
-}
-
-.card-text .card-icon {
-  min-width: 50px;
-}
-
-.flex-fill {
-  flex:1 1 auto;
-}
-
-p {
-  font-size: 20px;
-}
-
-.text-section {
-  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @keyframes App-logo-spin {
@@ -73,17 +13,3 @@ p {
   to { transform: rotate(360deg); }
 }
 
-.section-logo-1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* 
-.coluna1{
-   background-color: yellow
-}
-
-.coluna2 {
-  background-color: orangered;
-} */

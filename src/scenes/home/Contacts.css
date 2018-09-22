@@ -1,0 +1,24 @@
+.landing-bottom-row {
+    background-color: #efefef;
+    padding: 1.5rem;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .landing-bottom-row .card {
+    border-left-color: brown;
+    border-left-style: solid;
+    border-left-width: 5px;
+    min-height: 200px;
+    margin-top: 10px;
+  }
+  
+  .card-text .card-icon {
+    min-width: 50px;
+  }
+
+  
+.flex-fill {
+    flex:1 1 auto;
+  } 
+  
