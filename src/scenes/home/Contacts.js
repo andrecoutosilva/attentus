@@ -22,7 +22,7 @@ class Contacts extends React.Component {
                             <h3 className="card-title">Onde Estamos?</h3>
                             <p className="card-text">
                                 <i className="fas fa-map-marker-alt card-icon"></i>Avenida Conde de Margaride, 000<br/>
-                                <span style={{ 'margin-left': '50px' }}>4800-000 Guimarães</span>
+                                <span>4800-000 Guimarães</span>
                             </p>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ class ImageTextSection extends React.Component {
                         <h1 className="text-left"><strong>{this.props.sectionHeader}</strong></h1>
                         <p className="text-left">{this.props.mainText}</p>
                         <div className="text-right">
-                            <button type="button" class="btn btn-outline-primary">Ler mais...</button>
+                            <button type="button" className="btn btn-outline-primary">Ler mais...</button>
                         </div>
                     </div>
                 </div>

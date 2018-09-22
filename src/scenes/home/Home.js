@@ -19,29 +19,32 @@ class Home extends React.Component {
         const mainText3 = mainText1;
 
         return (
-          <div className="container pt-5 landing-background">
-            <div className="row landing-page">
-              <div className="col d-flex h-100 flex-column">
-                <Header />
-                <ImageTextSection 
-                    sectionHeader={sectionHeader1} 
-                    imgPath={imgPath2} 
-                    mainText={mainText2}
-                    imgPos="left" />
-                <ImageTextSection 
-                    sectionHeader={sectionHeader2} 
-                    imgPath={imgPath3} 
-                    mainText={mainText3} 
-                    imgPos="right" />
-                <ImageTextSection 
-                    sectionHeader={sectionHeader3} 
-                    imgPath={imgPath1} 
-                    mainText={mainText1} 
-                    imgPos="left" />
-                <Contacts />
-              </div>
+            <div className="container pt-5 landing-background">
+                <div className="row landing-page">
+                    <div className="col d-flex h-100 flex-column">
+                        <Header />
+                        <ImageTextSection 
+                            id="whoAreWeSection"
+                            sectionHeader={sectionHeader1} 
+                            imgPath={imgPath2} 
+                            mainText={mainText2}
+                            imgPos="left" />
+                        <ImageTextSection 
+                            id="servicesSection"
+                            sectionHeader={sectionHeader2} 
+                            imgPath={imgPath3} 
+                            mainText={mainText3} 
+                            imgPos="right" />
+                        <ImageTextSection 
+                            id="teamSection"
+                            sectionHeader={sectionHeader3} 
+                            imgPath={imgPath1} 
+                            mainText={mainText1} 
+                            imgPos="left" />
+                        <Contacts />
+                    </div>
+                </div>
             </div>
-          </div>
         );
     }
 }
