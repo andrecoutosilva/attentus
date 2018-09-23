@@ -14,10 +14,15 @@ class Home extends React.Component {
         const imgPath1 = whoarewe;
         const imgPath2 = whoarewe;
         const imgPath3 = whoarewe;
-        const mainText1 = "A ATTENTUS é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do crescimento harmonioso e do bem-estar da pessoa. Desenvolve a sua actividade na área da PSICOLOGIA, da TERAPIA DA FALA e da PEDOPSIQUIATRIA, com uma diversidade de intervenções individuais e em grupo, dirigidas a CRIANÇAS, JOVENS e ADULTOS.";
-        const mainText2 = mainText1;
-        const mainText3 = mainText1;
-
+        
+        var json = require("./text_sections.json");
+        console.log(json);
+        console.log(json.whoarewe);
+        console.log(json.team);
+        const mainText1 = json.whoarewe;
+        const mainText2 = json.services;
+        const mainText3 = json.team;
+        
         return (
             <div className="container pt-5 landing-background">
                 <div className="row landing-page">
@@ -27,19 +32,19 @@ class Home extends React.Component {
                             id="whoAreWeSection"
                             sectionHeader={sectionHeader1} 
                             imgPath={imgPath2} 
-                            mainText={mainText2}
+                            mainText={mainText1}
                             imgPos="left" />
                         <ImageTextSection 
                             id="servicesSection"
                             sectionHeader={sectionHeader2} 
                             imgPath={imgPath3} 
-                            mainText={mainText3} 
+                            mainText={mainText2} 
                             imgPos="right" />
                         <ImageTextSection 
                             id="teamSection"
                             sectionHeader={sectionHeader3} 
                             imgPath={imgPath1} 
-                            mainText={mainText1} 
+                            mainText={mainText3} 
                             imgPos="left" />
                         <Contacts />
                     </div>
