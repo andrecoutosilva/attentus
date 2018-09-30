@@ -1,5 +1,9 @@
 import React from 'react';
-import whoarewe from '../../whoarewe.png';
+// import whoarewe from '../../whoarewe.png';
+import circle1 from '../../images/circle1.png';
+import circle2 from '../../images/circle2.png';
+// import circle3 from '../../images/circle3.png';
+import circle4 from '../../images/circle4.png';
 import Header from './Header';
 import ImageTextSection from '../../components/ImageTextSection';
 import Contacts from './Contacts';
@@ -11,9 +15,9 @@ class Home extends React.Component {
         const sectionHeader1 = "Quem Somos";
         const sectionHeader2 = "Serviços";
         const sectionHeader3 = "Equipa";
-        const imgPath1 = whoarewe;
-        const imgPath2 = whoarewe;
-        const imgPath3 = whoarewe;
+        const imgPath1 = circle2;
+        const imgPath2 = circle4;
+        const imgPath3 = circle1;
         
         var json = require("./text_sections.json");
         console.log(json);

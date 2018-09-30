@@ -3,6 +3,13 @@
 .App {
   text-align: center;
   background-color: brown;
+  /* background-image: url("background.jpg"); */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+.App-Theme-2 {
+  
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;

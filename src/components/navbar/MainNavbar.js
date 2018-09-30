@@ -25,6 +25,9 @@ class MainNavbar extends React.Component {
                         <li className="nav-item">
                             <a className="nav-link" href="#contactsSection">Contactos</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="" onClick={this.props.themeHandler}>Alterar Tema</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
