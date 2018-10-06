@@ -1,14 +1,8 @@
 .App-header {
-  height: 350px;
   padding: 20px;
 }
   
 .App-header img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-}
-  
-.App-title {
-  font-size: 1.5em;
-  font-family: 'Bitter', serif;
 }

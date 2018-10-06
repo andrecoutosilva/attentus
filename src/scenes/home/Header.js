@@ -8,7 +8,6 @@ class Header extends React.Component {
         <div className="row">
             <div className="col">
                 <header className="App-header mt-5 text-center">
-                {/* <h1 className="display-4 App-title">attentus</h1> */}
                     <img src={logo} alt="Attentus Saude" className="App-logo" height="282" width="843"/>
                 </header>
             </div>

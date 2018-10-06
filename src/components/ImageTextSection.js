@@ -23,16 +23,7 @@ class ImageTextSection extends React.Component {
         return (
             <div className="row">
                 <div className={`col order-sm-first my-auto column1 ${position}`}>
-                    <img src={this.props.imgPath} alt="Quem Somos" height="300" width="300"/>
-                    {/* <svg viewbox="0 0 100 50" width="100%">
-                        <defs>
-                            <mask id="mask" x="0" y="0" width="80" height="30">
-                                <rect x="5" y="5" width="90" height="40" fill="#fff"/>
-                                <circle cx="50" cy="25" r="15" />
-                            </mask>
-                        </defs>
-                        <rect x="0" y="0" width="100" height="50" mask="url(#mask)" fill-opacity="0.7"/>    
-                    </svg> */}
+                    <img src={this.props.imgPath} alt={this.props.alt} height="300" width="300"/>
                 </div>
                 <div className="col column2">
                     <div className="pl-4 pr-5 py-4">

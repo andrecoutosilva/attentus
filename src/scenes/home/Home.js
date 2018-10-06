@@ -32,20 +32,26 @@ class Home extends React.Component {
                     id="whoAreWeSection"
                     sectionHeader={sectionHeader1} 
                     imgPath={imgPath2} 
+                    imgAlt="Quem Somos"
                     mainText={mainText1}
-                    imgPos="left" />
+                    imgPos="left"
+                    readMoreLink="/quemsomos" />
                 <ImageTextSection 
                     id="servicesSection"
                     sectionHeader={sectionHeader2} 
                     imgPath={imgPath3} 
+                    imgAlt="Serviços"
                     mainText={mainText2} 
-                    imgPos="right" />
+                    imgPos="right" 
+                    readMoreLink="/servicos"/>
                 <ImageTextSection 
                     id="teamSection"
                     sectionHeader={sectionHeader3} 
                     imgPath={imgPath1} 
+                    imgAlt="Equipa"
                     mainText={mainText3} 
-                    imgPos="left" />
+                    imgPos="left"
+                    readMoreLink="/equipa" />
                 <Contacts />
             </div>
         );
