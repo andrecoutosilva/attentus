@@ -1,6 +1,36 @@
 import React from 'react';
+import NavLinkExtended from './NavLinkExtended';
 
 class MainNavbar extends React.Component {
+    
+    constructor(props) {
+        
+        super(props);
+        this.state = {
+            links: [
+                {path: "/", text: "Início", isActive: false},
+                {path: "/quemsomos", text: "Quem Somos", isActive: false},
+                {path: "/servicos", text: "Serviços", isActive: false},
+                {path: "/equipa", text: "Equipa", isActive: false},
+                {path: "/parcerias", text: "Parcerias", isActive: false},
+                {path: "/noticias", text: "Notícias", isActive: false},
+                {path: "/contactos", text: "Contactos", isActive: false},
+            ]
+        }
+    }
+
+    handleClick(i) {
+        
+        const links = this.state.links.slice();
+        
+        for (let index = 0; index < links.length; index++) {
+            const element = links[index];
+            element.isActive = i === index;
+        }
+
+        this.setState({links: links});
+    }
+
     render() {
         return(
             <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
@@ -10,21 +40,14 @@ class MainNavbar extends React.Component {
                 <a className="navbar-brand" href="">attentus saúde</a>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="">Início <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#whoAreWeSection">Quem Somos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#servicesSection">Serviços</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#teamSection">Equipa</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contactsSection">Contactos</a>
-                        </li>
+                    {this.state.links.map((link, i) => 
+                        <NavLinkExtended
+                            path={link.path} 
+                            text={link.text} 
+                            isActive={link.isActive}
+                            key={link.path} 
+                            onClick={() => this.handleClick(i)}/> 
+                    )}
                         <li className="nav-item">
                             <a className="nav-link" href="" onClick={this.props.themeHandler}>Alterar Tema</a>
                         </li>
