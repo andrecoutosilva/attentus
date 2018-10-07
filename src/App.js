@@ -18,17 +18,38 @@ class App extends Component {
     super(props);
 
     this.state = {
-      addClass : true
+      addClass : true,
+      currentTheme : 1,
     }
   }
 
   themeToggler(e) {
+
     e.preventDefault();
     
+    let nextTheme = 1;
+
+    switch (this.state.currentTheme) {
+      case 1:
+        nextTheme = 2;        
+        break;
+      case 2:
+        // nextTheme = 3;
+        nextTheme = 1;
+        break;
+      // case 3:
+      //   nextTheme = 1;
+      //   break;
+      default:
+        break;
+    }
+
     this.setState( {
-        addClass : !this.state.addClass
+        addClass : !this.state.addClass,
+        currentTheme : nextTheme,
       }
     )
+
     return false;
   }
 
@@ -36,16 +57,19 @@ class App extends Component {
     
     let themeClass = ["App"];
     
-    if (this.state.addClass) {
+    if (this.state.currentTheme === 1) {
       themeClass.push('App-Theme-2');
-    }
+    } 
+    // else if (this.state.currentTheme === 3) {
+    //   themeClass.push('App-Theme-2');
+    // }
 
     return (
       <Router>
         <div className={themeClass.join(' ')}>    
           <MainNavbar themeHandler={this.themeToggler.bind(this)}/>
           <div className="container pt-5 landing-background">
-            <Route exact={true} path="/" component={Home}/>
+            <Route exact={true} path="/"  render={(props) => <Home {...props} currentTheme={this.state.currentTheme} />}/>
             <Route path="/quemsomos" component={QuemSomos}/>
             <Route path="/servicos" component={Servicos}/>
             <Route path="/equipa" component={Equipa}/>

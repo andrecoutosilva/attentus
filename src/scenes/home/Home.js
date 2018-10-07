@@ -8,10 +8,12 @@ import circle4 from '../../images/circle4.png';
 // import circle_lettering from '../../images/circle_lettering.png';
 import Header from './Header';
 import ImageTextSection from '../../components/ImageTextSection';
+import HeaderTextSection from '../../components/HeaderTextSection';
 import Contacts from './Contacts';
 import './Home.css';
 
 class Home extends React.Component {
+
     componentDidMount() {
         window.scrollTo(0,0);
     }
@@ -33,12 +35,42 @@ class Home extends React.Component {
         const mainText1 = json.whoarewe;
         const mainText2 = json.services;
         const mainText3 = json.team;
-        
-        return (
-            <div className="row landing-page">
-                <div className="col d-flex h-100 flex-column">
-                    <Header />
-                    <ImageTextSection 
+        console.log("Current theme ", this.props.currentTheme);
+
+        let content; 
+
+        if (this.props.currentTheme === 1) {
+            content = <div>
+                <HeaderTextSection 
+                        id="whoAreWeSection"
+                        sectionHeader={sectionHeader1} 
+                        imgPath={imgPath1} 
+                        imgAlt="Quem Somos"
+                        mainText={mainText1}
+                        imgPos="left"
+                        path="/quemsomos" />
+                    <HeaderTextSection 
+                        id="servicesSection"
+                        sectionHeader={sectionHeader2} 
+                        imgPath={imgPath2} 
+                        imgAlt="Serviços"
+                        mainText={mainText2} 
+                        imgPos="right" 
+                        path="/servicos"/>
+                    <HeaderTextSection 
+                        id="teamSection"
+                        sectionHeader={sectionHeader3} 
+                        imgPath={imgPath3} 
+                        imgAlt="Equipa"
+                        mainText={mainText3} 
+                        imgPos="left"
+                        path="/equipa" />
+            </div>;
+        }
+        else if (this.props.currentTheme === 2) {
+            content = 
+                <div>
+            <ImageTextSection 
                         id="whoAreWeSection"
                         sectionHeader={sectionHeader1} 
                         imgPath={imgPath1} 
@@ -62,6 +94,14 @@ class Home extends React.Component {
                         mainText={mainText3} 
                         imgPos="left"
                         path="/equipa" />
+            </div>;
+        }
+
+        return (
+            <div className="row landing-page">
+                <div className="col d-flex h-100 flex-column">
+                    <Header />
+                    {content}                                    
                     <Contacts />
                 </div>
             </div>
