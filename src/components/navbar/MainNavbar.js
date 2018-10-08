@@ -49,7 +49,7 @@ class MainNavbar extends React.Component {
                             onClick={() => this.handleClick(i)}/> 
                     )}
                         <li className="nav-item">
-                            <a className="nav-link" href="" onClick={this.props.themeHandler}>Alterar Tema</a>
+                            <a className="nav-link" href="" onClick={this.props.themeHandler}>Alterar Tema ({this.props.currentTheme})</a>
                         </li>
                     </ul>
                 </div>

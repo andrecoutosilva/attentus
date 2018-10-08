@@ -2,7 +2,17 @@
   padding: 20px;
 }
   
-.App-header img {
+.App .App-header img {
+  max-width: 60%;
+  height: auto;
+}
+
+.App-Theme-2 .App-header img {
   max-width: 70%;
+  height: auto;
+}
+
+.App-Theme-3 .App-header img {
+  max-width: 100%;
   height: auto;
 }

@@ -67,7 +67,7 @@ class Home extends React.Component {
                         path="/equipa" />
             </div>;
         }
-        else if (this.props.currentTheme === 2) {
+        else if (this.props.currentTheme === 2 || this.props.currentTheme === 3) {
             content = 
                 <div>
             <ImageTextSection 
