@@ -35,9 +35,11 @@ class App extends Component {
         break;
       case 2:
         nextTheme = 3;
-        //nextTheme = 1;
         break;
       case 3:
+        nextTheme = 4;
+        break;
+      case 4:
         nextTheme = 1;
         break;
       default:
@@ -55,23 +57,26 @@ class App extends Component {
 
   render() {
     
-    let themeClass = ["App"];
-    
-    if (this.state.currentTheme === 1) {
-      // themeClass.push('App-Theme-2');
-      themeClass = ["App"];
-    } else if (this.state.currentTheme === 2) {
-      themeClass = ["App-Theme-2"];
-    }
-    else if (this.state.currentTheme === 3) {
-      themeClass = ["App-Theme-3"];
-    }
+    let themeClass = ["App-Theme-1"];
+    let containerType = "container-fluid landing-background";
+
+    // if (this.state.currentTheme === 1) {
+    //   themeClass = ["App"];
+    // } 
+    //   else if (this.state.currentTheme === 2) {
+    //   themeClass = ["App-Theme-2"];
+    // } else if (this.state.currentTheme === 3) {
+    //   themeClass = ["App-Theme-3"];
+    // } else if (this.state.currentTheme === 4) {
+    //   themeClass = ["App-Theme-4"];
+    //   containerType = "container-fluid landing-background";
+    // }
 
     return (
       <Router>
         <div className={themeClass.join(' ')}>    
           <MainNavbar themeHandler={this.themeToggler.bind(this)} currentTheme={this.state.currentTheme}/>
-          <div className="container pt-5 landing-background">
+          <div className={containerType}>
             <Route exact={true} path="/"  render={(props) => <Home {...props} currentTheme={this.state.currentTheme} />}/>
             <Route path="/quemsomos" component={QuemSomos}/>
             <Route path="/servicos" component={Servicos}/>

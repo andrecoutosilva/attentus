@@ -5,25 +5,18 @@ class Contacts extends React.Component {
     render() {
         return(
             <div className="row flex-fill landing-bottom-row text-left">
-                <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">Contactos</h3>
-                            <p className="card-text"><i className="fas fa-at card-icon"></i> attentus.saude@attentus.pt<br/>
-                            <i className="fas fa-phone card-icon"></i> 915 958 480<br/></p>
-                        </div>
-                    </div>
+                <div className="col-lg-4 col-sm-12 ">
+                    <span className="attentus ml-4">attentus</span>
                 </div>
-                <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">Onde Estamos?</h3>
-                            <p className="card-text">
-                                <i className="fas fa-map-marker-alt card-icon"></i>Av. Conde Margaride, nº 352 – 1º B<br/>
-                                <span>4810-537 Guimarães</span>
-                            </p>
-                        </div>
-                    </div>
+                <div className="col-lg-4 col-sm-12">
+                    <p className="card-text borded-top mr-2">attentus.saude@attentus.pt<br/>
+                                             915 958 480<br/></p>
+                </div>
+                <div className="col-lg-4 col-sm-12">
+                    <p className="card-text borded-top mr-2">
+                        Av. Conde Margaride, nº 352 – 1º B<br/>
+                        <span>4810-537 Guimarães</span>
+                    </p>
                 </div>
             </div>
         );

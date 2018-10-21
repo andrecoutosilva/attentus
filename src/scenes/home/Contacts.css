@@ -1,6 +1,9 @@
+* {
+  color: gray;
+}
 .landing-bottom-row {
     background-color: #efefef;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem 2.5rem 1.5rem;
     margin-right: -15px;
     margin-left: -15px;
   }
@@ -22,3 +25,11 @@
     flex:1 1 auto;
   } 
   
+.attentus {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.borded-top {
+  border-top: 1px solid gray;
+}

@@ -1,13 +1,10 @@
-.App {
-  text-align: center;
-   /* background-color: brown;   */
-  background: url("background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.App-Theme-1 { 
+  text-align: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
 }
-
+/* 
 .App-Theme-2 {
   text-align: center;
   background: url("background.jpg") no-repeat center center fixed; 
@@ -25,13 +22,15 @@
   background-position-x: center;
 }
 
+.App-Theme-4 { 
+  text-align: center;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+} */
+
 p {
   font-size: 20px;
   text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-

@@ -1,0 +1,8 @@
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.navbar-brand .text-primary {
+    font-weight: 700;
+}

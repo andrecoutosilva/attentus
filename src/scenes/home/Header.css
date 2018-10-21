@@ -2,17 +2,24 @@
   padding: 20px;
 }
   
-.App .App-header img {
+.App .App-header .App-logo {
   max-width: 60%;
   height: auto;
 }
 
-.App-Theme-2 .App-header img {
+.App-Theme-2 .App-header .App-logo {
   max-width: 70%;
   height: auto;
 }
 
-.App-Theme-3 .App-header img {
+.App-Theme-3 .App-header .App-logo {
   max-width: 100%;
   height: auto;
+}
+
+.App .App-header .Rose-background,
+.App-Theme-2  .App-header .Rose-background,
+.App-Theme-3  .App-header .Rose-background,
+.App-Theme-4 .App-header .App-logo {
+  display: none;
 }

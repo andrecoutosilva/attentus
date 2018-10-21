@@ -6,11 +6,12 @@ import circle2 from '../../images/circle2.png';
 import circle4 from '../../images/circle4.png';
 // import circle_hands from '../../images/circle_team.png';
 // import circle_lettering from '../../images/circle_lettering.png';
-import Header from './Header';
+// import Header from './Header';
 import ImageTextSection from '../../components/ImageTextSection';
 import HeaderTextSection from '../../components/HeaderTextSection';
 import Contacts from './Contacts';
 import './Home.css';
+import Header2 from './Header-2';
 
 class Home extends React.Component {
 
@@ -39,69 +40,79 @@ class Home extends React.Component {
 
         let content; 
 
-        if (this.props.currentTheme === 1) {
-            content = <div>
-                <HeaderTextSection 
-                        id="whoAreWeSection"
-                        sectionHeader={sectionHeader1} 
-                        imgPath={imgPath1} 
-                        imgAlt="Quem Somos"
-                        mainText={mainText1}
-                        imgPos="left"
-                        path="/quemsomos" />
-                    <HeaderTextSection 
-                        id="servicesSection"
-                        sectionHeader={sectionHeader2} 
-                        imgPath={imgPath2} 
-                        imgAlt="Serviços"
-                        mainText={mainText2} 
-                        imgPos="right" 
-                        path="/servicos"/>
-                    <HeaderTextSection 
-                        id="teamSection"
-                        sectionHeader={sectionHeader3} 
-                        imgPath={imgPath3} 
-                        imgAlt="Equipa"
-                        mainText={mainText3} 
-                        imgPos="left"
-                        path="/equipa" />
-            </div>;
-        }
-        else if (this.props.currentTheme === 2 || this.props.currentTheme === 3) {
-            content = 
-                <div>
-            <ImageTextSection 
-                        id="whoAreWeSection"
-                        sectionHeader={sectionHeader1} 
-                        imgPath={imgPath1} 
-                        imgAlt="Quem Somos"
-                        mainText={mainText1}
-                        imgPos="left"
-                        path="/quemsomos" />
-                    <ImageTextSection 
-                        id="servicesSection"
-                        sectionHeader={sectionHeader2} 
-                        imgPath={imgPath2} 
-                        imgAlt="Serviços"
-                        mainText={mainText2} 
-                        imgPos="right" 
-                        path="/servicos"/>
-                    <ImageTextSection 
-                        id="teamSection"
-                        sectionHeader={sectionHeader3} 
-                        imgPath={imgPath3} 
-                        imgAlt="Equipa"
-                        mainText={mainText3} 
-                        imgPos="left"
-                        path="/equipa" />
-            </div>;
-        }
+        // if (this.props.currentTheme === 1) {
+        //     content = <div>
+        //         <HeaderTextSection 
+        //                 id="whoAreWeSection"
+        //                 sectionHeader={sectionHeader1} 
+        //                 imgPath={imgPath1} 
+        //                 imgAlt="Quem Somos"
+        //                 mainText={mainText1}
+        //                 imgPos="left"
+        //                 path="/quemsomos" />
+        //             <HeaderTextSection 
+        //                 id="servicesSection"
+        //                 sectionHeader={sectionHeader2} 
+        //                 imgPath={imgPath2} 
+        //                 imgAlt="Serviços"
+        //                 mainText={mainText2} 
+        //                 imgPos="right" 
+        //                 path="/servicos"/>
+        //             <HeaderTextSection 
+        //                 id="teamSection"
+        //                 sectionHeader={sectionHeader3} 
+        //                 imgPath={imgPath3} 
+        //                 imgAlt="Equipa"
+        //                 mainText={mainText3} 
+        //                 imgPos="left"
+        //                 path="/equipa" />
+        //     </div>;
+        // }
+        // else if (this.props.currentTheme === 2 || this.props.currentTheme === 3) {
+        //     content = 
+        //         <div>
+        //             <ImageTextSection 
+        //                 id="whoAreWeSection"
+        //                 sectionHeader={sectionHeader1} 
+        //                 imgPath={imgPath1} 
+        //                 imgAlt="Quem Somos"
+        //                 mainText={mainText1}
+        //                 imgPos="left"
+        //                 path="/quemsomos" />
+        //             <ImageTextSection 
+        //                 id="servicesSection"
+        //                 sectionHeader={sectionHeader2} 
+        //                 imgPath={imgPath2} 
+        //                 imgAlt="Serviços"
+        //                 mainText={mainText2} 
+        //                 imgPos="right" 
+        //                 path="/servicos"/>
+        //             <ImageTextSection 
+        //                 id="teamSection"
+        //                 sectionHeader={sectionHeader3} 
+        //                 imgPath={imgPath3} 
+        //                 imgAlt="Equipa"
+        //                 mainText={mainText3} 
+        //                 imgPos="left"
+        //                 path="/equipa" />
+        //     </div>;
+        // }
 
         return (
             <div className="row landing-page">
                 <div className="col d-flex h-100 flex-column">
-                    <Header />
-                    {content}                                    
+                    <Header2 />
+                    {content}
+                    <div className="row">
+                        <div className="col">
+                            <div className="main-content-left m-5 pt-3">
+                                <p className="part-1">A attentus é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do crescimento harmonioso e do bem-estar da pessoa.</p>
+                                <p>Desenvolve a sua actividade na área da psicologia, da terapia da fala e da pedopsiquiatria, com uma diversidade de intervenções individuais e em grupo, dirigidas a crianças, jovens e adultos.</p>
+                            </div>
+                        </div>                        
+                        <div className="col">
+                        </div>
+                    </div>
                     <Contacts />
                 </div>
             </div>

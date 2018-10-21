@@ -1,0 +1,11 @@
+.Rose-Background {
+  width: 100%;
+  height: 400px;
+  line-height: 400px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  /* font-size: 4em; */
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './attentus_logo.png';
+import background from '../../background.jpg';
 import './Header.css';
 
 class Header extends React.Component {
