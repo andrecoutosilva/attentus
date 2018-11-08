@@ -83,7 +83,7 @@ class App extends Component {
             <Route path="/equipa" component={Equipa}/>
             <Route path="/parcerias" component={Parcerias}/>
             <Route path="/noticias" component={Noticias}/>
-            <Route path="/contactos" component={Contactos}/>
+            <Route path="/contactos" component={Contactos}/>              
           </div>
         </div>
       </Router>

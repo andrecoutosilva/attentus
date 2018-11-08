@@ -3,34 +3,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-x: center;
-}
-/* 
-.App-Theme-2 {
-  text-align: center;
-  background: url("background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+  background: url("images/attentus_fundo_blurred.jpg") no-repeat center center fixed; 
 
-.App-Theme-3 { 
-  text-align: center;
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: center;
 }
-
-.App-Theme-4 { 
-  text-align: center;
-  
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: center;
-} */
 
 p {
   font-size: 20px;
   text-align: left;
+  color: #3b3b3b;
+}
+
+.content-page {
+  background-color: rgb(231, 230, 230);
 }
