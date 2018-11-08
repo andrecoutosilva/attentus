@@ -1,6 +1,7 @@
 import React from 'react';
 import NavLinkExtended from './NavLinkExtended';
 import './MainNavbar.css';
+import brand from '../../images/attentus_logo_1.png';
 
 class MainNavbar extends React.Component {
     
@@ -38,7 +39,7 @@ class MainNavbar extends React.Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <a className="navbar-brand" href=""><span className="text-primary">attentus</span><span> saúde</span></a>
+                <a className="navbar-brand" href="/"><img src={brand} alt="attentus saúde" /></a>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
    
                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -50,9 +51,6 @@ class MainNavbar extends React.Component {
                             key={link.path} 
                             onClick={() => this.handleClick(i)}/> 
                     )}
-                        <li className="nav-item">
-                            <a className="nav-link" href="" onClick={this.props.themeHandler}>Alterar Tema ({this.props.currentTheme})</a>
-                        </li>
                     </ul>
                 </div>
             </nav>

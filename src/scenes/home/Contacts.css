@@ -25,9 +25,8 @@
     flex:1 1 auto;
   } 
   
-.attentus {
-  font-size: 1.5rem;
-  font-weight: 600;
+.attentus img{
+  max-width: 100px;
 }
 
 .borded-top {
