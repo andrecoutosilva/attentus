@@ -1,7 +1,6 @@
 import React  from 'react';
 import './QuemSomos.css';
 import circle1 from '../../images/icons/01.png';
-import Contacts from '../home/Contacts';
 
 class QuemSomos extends React.Component {
     
@@ -34,7 +33,6 @@ class QuemSomos extends React.Component {
                         </div>
                     </div>
                 </div>
-                <Contacts />
             </div>
         )
     }

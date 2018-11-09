@@ -1,5 +1,4 @@
 import React from 'react';
-import Contacts from './Contacts';
 import './Home.css';
 import Header2 from './Header-2';
 import QuemSomos from '../../images/icons/01.png';
@@ -36,7 +35,6 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <Contacts />
                 </div>
             </div>
         );

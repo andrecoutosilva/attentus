@@ -1,7 +1,7 @@
 import React  from 'react';
 import './Contactos.css';
 import circle1 from '../../images/circle1.png';
-import Contacts from '../home/Contacts';
+import Contacts from '../../components/bottom_contacts/Contacts';
 class Contactos extends React.Component {
     render() {
         return(
