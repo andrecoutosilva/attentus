@@ -1,36 +1,27 @@
 import React  from 'react';
 import './Contactos.css';
-import circle1 from '../../images/circle1.png';
-import Contacts from '../../components/bottom_contacts/Contacts';
+import ImgNoticias from '../../images/icons/03.png';
+import ContentPage from '../../components/content_page/ContentPage';
+
 class Contactos extends React.Component {
     render() {
         return(
-            <div className="row content-page">
-                <div className="col d-flex h-100 flex-column">
-                    <div className="row pt-5">
-                        <div className="col-md-3 col-sm-1">
-                            <img src={circle1} alt={this.props.alt} height="230" width="230"/>
-                        </div>
-                        <div className="col-md-9 col-sm-11 pl-4 pr-5 pb-5">
-                            <h1 className="display-3 mb-3">Contactos</h1>
-                            <hr/>
-                            <div>
-                                <Contacts/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                            </div>
-                        </div>
+            <ContentPage 
+                pageImg={ImgNoticias} 
+                pageTitle="Contactos">
+                <div className="row flex-fill text-left">
+                    <div className="col-lg-6 col-sm-12">
+                        <p className="card-text mr-2">attentus.saude@attentus.pt<br/>
+                                                915 958 480<br/></p>
+                    </div>
+                    <div className="col-lg-6 col-sm-12">
+                        <p className="card-text mr-2">
+                            Av. Conde Margaride, nº 352 – 1º B<br/>
+                            <span>4810-537 Guimarães</span>
+                        </p>
                     </div>
                 </div>
-            </div>
+            </ContentPage>
         )
     }
 }
