@@ -19,3 +19,8 @@
 .icons-zone img {
   width: 100%;
 }
+
+.icons-zone h5 {
+  padding-top: 15px;
+  color: #313131;
+}

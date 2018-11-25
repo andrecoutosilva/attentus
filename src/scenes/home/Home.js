@@ -22,8 +22,8 @@ class Home extends React.Component {
                     <div className="row">
                         <div className="col">
                             <div className="main-content-left m-5 pt-3">
-                                <p className="part-1">A attentus é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do crescimento harmonioso e do bem-estar da pessoa.</p>
-                                <p>Desenvolve a sua actividade na área da psicologia, da terapia da fala e da pedopsiquiatria, com uma diversidade de intervenções individuais e em grupo, dirigidas a crianças, jovens e adultos.</p>
+                                <p className="part-1">A <strong>attentus</strong> é uma estrutura na área da saúde e do desenvolvimento que visa a promoção do crescimento harmonioso e do bem-estar da pessoa.</p>
+                                <p>Desenvolve a sua actividade na área da <strong>psicologia</strong>, da <strong>terapia da fala</strong> e da <strong>pedopsiquiatria</strong>, com uma diversidade de intervenções individuais e em grupo, dirigidas a <strong>crianças</strong>, <strong>jovens</strong> e <strong>adultos</strong>.</p>
                             </div>
                         </div>                        
                         <div className="col icons-zone">

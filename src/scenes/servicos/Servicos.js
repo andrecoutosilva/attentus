@@ -10,9 +10,11 @@ class Servicos extends React.Component {
             <ContentPage 
                 pageImg={ImgServicos} 
                 pageTitle="Serviços">
-                <h3 className="pt-4">Em construção...</h3>
-                <h4>Estamos a trabalhar na construção dos conteúdos desta página.</h4>
-                <img className="attentus_logo" src={AttentusLogo} alt="attentus" />
+                <div className="servicos">
+                    <h3 className="pt-4">Em construção...</h3>
+                    <h4>Estamos a trabalhar na construção dos conteúdos desta página.</h4>
+                    <img className="attentus_logo" src={AttentusLogo} alt="attentus" />
+                </div>
             </ContentPage>
         )
     }
