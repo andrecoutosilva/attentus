@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContentPage.css';
 
 class ContentPage extends React.Component {
     
@@ -17,10 +18,12 @@ class ContentPage extends React.Component {
                                 <img src={this.props.pageImg} alt={this.props.alt} height="230" width="230"/>
                             </div>
                             <div className="col-md-9 col-sm-11 pl-4 pr-5 pb-5">
-                                <h1 className="display-3 py-5 my-3 text-primary">{this.props.pageTitle}</h1>
+                                <h1 className="display-4 my-3 text-primary">{this.props.pageTitle}</h1>
                                 <hr/>
-                                <div>
-                                    {this.props.children}                                    
+                                <div className="row pt-4">
+                                    <div className="col-md-9 text-block">
+                                        {this.props.children}                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
