@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Noticias.css';
-import ImgNoticias from '../../images/icons/03.png';
+import ImgNoticias from '../../images/icons/03_w.png';
 import AttentusLogo from '../../images/attentus_logo_2.png';
 import ContentPage from '../../components/content_page/ContentPage';
 

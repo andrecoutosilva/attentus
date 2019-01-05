@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Parcerias.css';
-import ImgParcerias from '../../images/icons/05.png';
+import ImgParcerias from '../../images/icons/05_w.png';
 import ContentPage from '../../components/content_page/ContentPage';
 import AttentusLogo from '../../images/attentus_logo_2.png';
 

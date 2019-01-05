@@ -1,3 +1,7 @@
 .navbar-brand img {
     width: 220px;
 }
+
+.bg-light-2 {
+    background-color: #efefef;
+}
