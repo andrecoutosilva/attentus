@@ -5,8 +5,22 @@ import ContentPage from '../../components/content_page/ContentPage';
 
 class QuemSomos extends React.Component {
     
+    constructor(props) {
+        super(props);
+        this.state = { isReadMoreOn: true };
+        // This binding is necessary to make `this` work in the callback
+        this.readMoreClick = this.readMoreClick.bind(this);
+    }
+
     componentDidMount() {
         window.scrollTo(0,0);
+    }
+
+    readMoreClick() {
+        
+        this.setState(state => ({
+            isReadMoreOn: !state.isReadMoreOn
+        }));
     }
 
     render() {
@@ -24,7 +38,8 @@ class QuemSomos extends React.Component {
                     </div>
                     <a data-toggle="collapse" 
                         href="#collapseExample" role="button" aria-expanded="false" 
-                        aria-controls="collapseExample">Ler mais...</a>
+                        onClick={this.readMoreClick}
+                        aria-controls="collapseExample"> {this.state.isReadMoreOn ? 'Ler mais...' : 'Ler menos...'}</a>
                 </div>
             </ContentPage>
         )
