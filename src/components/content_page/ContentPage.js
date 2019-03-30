@@ -17,7 +17,7 @@ class ContentPage extends React.Component {
                             <div className="col-md-3 col-sm-1">
                                 <img src={this.props.pageImg} alt={this.props.alt} height="230" width="230"/>
                                 <div className="row pt-4">
-                                    <div className="col-md-9 text-block">
+                                    <div className="col-md-12 text-block">
                                         {this.props.navigation}                                    
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@ class ContentPage extends React.Component {
                                 <h1 className="display-4 my-3 text-primary">{this.props.pageTitle}</h1>
                                 <hr/>
                                 <div className="row pt-4">
-                                    <div className="col-md-9 text-block">
+                                    <div className="col-md-12 text-block">
                                         {this.props.children}                                    
                                     </div>
                                 </div>
