@@ -1,6 +1,6 @@
 import React  from 'react';
 import './QuemSomos.css';
-import ImgQuemSomos from '../../images/icons/01_w.png';
+import ImgQuemSomos from '../../images/icons/white/icons-01.png';
 import ContentPage from '../../components/content_page/ContentPage';
 
 class QuemSomos extends React.Component {

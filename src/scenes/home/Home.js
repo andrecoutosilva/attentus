@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
 import Header2 from './Header-2';
-import QuemSomos from '../../images/icons/01.png';
-import Servicos from '../../images/icons/02.png';
-import Contactos from '../../images/icons/03.png';
-import Equipa from '../../images/icons/04.png';
+import QuemSomos from '../../images/icons/grey/icon-01.png';
+import Servicos from '../../images/icons/grey/icon-05.png';
+import Contactos from '../../images/icons/grey/icon-04.png';
+import Equipa from '../../images/icons/grey/icon-03.png';
 import {Link} from 'react-router-dom';
 
 class Home extends React.Component {

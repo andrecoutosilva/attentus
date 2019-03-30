@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Servicos.css';
-import ImgServicos from '../../images/icons/02_w.png';
+import ImgServicos from '../../images/icons/white/icons-05.png';
 import ContentPage from '../../components/content_page/ContentPage';
 
 class Servicos extends React.Component {

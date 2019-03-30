@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Contactos.css';
-import ImgNoticias from '../../images/icons/03_w.png';
+import ImgNoticias from '../../images/icons/white/icons-04.png';
 import ContentPage from '../../components/content_page/ContentPage';
 
 class Contactos extends React.Component {

@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Equipa.css';
-import ImgEquipa from '../../images/icons/04_w.png';
+import ImgEquipa from '../../images/icons/white/icons-03.png';
 import ContentPage from '../../components/content_page/ContentPage';
 
 class Equipa extends React.Component {
