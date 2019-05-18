@@ -18,9 +18,10 @@
 
 .icons-zone img {
   width: 100%;
+  max-width: 200px
 }
 
-.icons-zone h5 {
+.icons-zone p {
   padding-top: 15px;
   color: #313131;
 }

@@ -1,5 +1,8 @@
 .navbar-brand img {
     width: 220px;
+    vertical-align: unset;
+    margin: auto;
+    display: inline-block;
 }
 
 .bg-light-2 {
