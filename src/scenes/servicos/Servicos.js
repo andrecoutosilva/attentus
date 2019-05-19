@@ -11,9 +11,9 @@ class Servicos extends React.Component {
                 pageTitle="Serviços">
                 <div className="sidebar-box">
                     <div className="pb-4">
-                        <p><h4>1. Áreas de Intervenção.</h4></p>
+                        <p><h4>ÁREAS DE INTERVENÇÃO</h4></p>
                         <p>A actividade da <strong>ATTENTUS</strong> é desenvolvida actualmente em três
-                        valências: <strong>psicologia, terapia da fala e pedopsiquiatria</strong>.</p>
+                        valências: Psicologia, Terapia da Fala e Pedopsiquiatria.</p>
                         <div class="accordion" id="accordionAreas">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
@@ -78,10 +78,10 @@ class Servicos extends React.Component {
                         </div>
                     </div>
                     <div className="pb-4">
-                        <p><h4>2. A quem se destina.</h4></p>
+                        <p><h4>A QUEM SE DESTINA</h4></p>
                         <p>Os diferentes serviços que são disponibilizados pela <strong>ATTENTUS</strong> em 
                         cada uma das valências destinam-se a todas as faixas etárias ao longo 
-                        do ciclo vital: <strong>crianças, jovens e adultos</strong>.
+                        do ciclo vital: <strong>crianças</strong>, <strong>jovens</strong> e <strong>adultos</strong>.
                         </p>
                         <div class="accordion" id="accordionAQuem">
                             <div class="card">
@@ -129,7 +129,7 @@ class Servicos extends React.Component {
                         </div>
                     </div>
                     <div className="pb-4">
-                        <p><h4>3. Outros serviços prestados e outras actividades desenvolvidas.</h4></p>
+                        <p><h4>OUTROS SERVIÇOS PRESTADOS E OUTRAS ACTIVIDADES DESENVOLVIDAS</h4></p>
                         <div class="accordion" id="accordionOutros">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
@@ -171,7 +171,7 @@ class Servicos extends React.Component {
                                 <div class="card-body">
                                     A CONSULTADORIA é um dos serviços disponibilizados, em que se procura encontrar, 
                                     em conjunto com as instituições e com os outros profissionais, as respostas para algumas 
-                                    das suas necessidade, nas áreas de actuação da ATTENTUS e em função das solicitações que 
+                                    das suas necessidade, nas áreas de actuação da <strong>ATTENTUS</strong> e em função das solicitações que 
                                     lhe forem dirigidas.
                                 </div>
                                 </div>
@@ -186,7 +186,7 @@ class Servicos extends React.Component {
                                 </div>
                                 <div id="collapseInfo" class="collapse" aria-labelledby="headingFour" data-parent="#accordionOutros">
                                 <div class="card-body">
-                                    Junto da população em geral, a ATTENTUS também procura realizar sessões de INFORMAÇÃO e de 
+                                    Junto da população em geral, a <strong>ATTENTUS</strong> também procura realizar sessões de INFORMAÇÃO e de 
                                     ESCLARECIMENTO, procurando sensibilizar e alertar para algumas temáticas importantes e 
                                     para o papel de cada um, individualmente e colectivamente, na área da saúde (física e mental) 
                                     e da promoção do desenvolvimento e do bem-estar (individual e colectivo).
@@ -196,7 +196,7 @@ class Servicos extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <p>A ATTENTUS coloca também à disposição de toda a comunidade outros serviços 
+                        <p>A <strong>ATTENTUS</strong> coloca também à disposição de toda a comunidade outros serviços 
                         prestados e outras actividades desenvolvidas, um conjunto de respostas 
                         diferenciadas, desenvolvidas em função de uma população alvo, de uma problemática 
                         ou de um contexto, específicos.</p>
@@ -206,7 +206,7 @@ class Servicos extends React.Component {
                         <p>Junto de entidades do poder local, de instituições (de saúde, de educação, etc.) 
                         e de outros profissionais, bem como junto da população em geral, tem por objectivo 
                         colaborar, no sentido de colocar à disposição dos mesmos a diversidade de respostas 
-                        e os saberes que a ATTENTUS pode oferecer.</p>
+                        e os saberes que a <strong>ATTENTUS</strong> pode oferecer.</p>
                     </div>
                 </div>
             </ContentPage>

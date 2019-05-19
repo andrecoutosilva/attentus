@@ -12,10 +12,9 @@ class MainNavbar extends React.Component {
             links: [
                 {path: "/", text: "Início", isActive: false},
                 {path: "/quemsomos", text: "Quem Somos", isActive: false},
-                {path: "/servicos", text: "Serviços", isActive: false},
                 {path: "/equipa", text: "Equipa", isActive: false},
+                {path: "/servicos", text: "Serviços", isActive: false},
                 {path: "/parcerias", text: "Parcerias", isActive: false},
-                {path: "/noticias", text: "Notícias", isActive: false},
                 {path: "/contactos", text: "Contactos", isActive: false},
             ]
         }

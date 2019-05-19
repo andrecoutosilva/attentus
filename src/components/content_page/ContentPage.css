@@ -14,3 +14,8 @@
 .text-block {
     width: 100%;
 }
+
+.content-page .content-image {
+    text-align: initial;
+    margin-left: -15px;
+}

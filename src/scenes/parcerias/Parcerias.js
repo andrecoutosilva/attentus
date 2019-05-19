@@ -11,7 +11,7 @@ class Parcerias extends React.Component {
                 pageImg={ImgParcerias} 
                 pageTitle="Parcerias">
                 <h3 className="pt-4">Em construção...</h3>
-                <h4>Estamos a trabalhar na construção dos conteúdos desta página.</h4>
+                <h4 className="text-center">Estamos a trabalhar na construção dos conteúdos desta página.</h4>
                 <img className="attentus_logo" src={AttentusLogo} alt="attentus" />
             </ContentPage>
         )
