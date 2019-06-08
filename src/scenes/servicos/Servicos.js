@@ -10,7 +10,7 @@ class Servicos extends React.Component {
                 pageImg={ImgServicos}
                 pageTitle="Serviços">
                 <div className="sidebar-box">
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>ÁREAS DE INTERVENÇÃO</h4></p>
                         <p>A actividade da <strong>ATTENTUS</strong> é desenvolvida actualmente em três
                         valências: Psicologia, Terapia da Fala e Pedopsiquiatria.</p>
@@ -77,7 +77,7 @@ class Servicos extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>A QUEM SE DESTINA</h4></p>
                         <p>Os diferentes serviços que são disponibilizados pela <strong>ATTENTUS</strong> em 
                         cada uma das valências destinam-se a todas as faixas etárias ao longo 
@@ -128,7 +128,7 @@ class Servicos extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>OUTROS SERVIÇOS PRESTADOS E OUTRAS ACTIVIDADES DESENVOLVIDAS</h4></p>
                         <div class="accordion" id="accordionOutros">
                             <div class="card">
