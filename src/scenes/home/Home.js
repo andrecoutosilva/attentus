@@ -29,8 +29,8 @@ class Home extends React.Component {
                         <div className="col icons-zone">
                             <div className="row mt-5 mr-4 pt-3 no-gutters">
                                 <div className="col px-2"><Link to="/quemsomos"><img src={QuemSomos} alt="Quem Somos" /><p className="text-center">Quem Somos</p></Link></div>
-                                <div className="col px-2"><Link to="/servicos"><img src={Servicos} alt="Serviços" /><p className="text-center">Serviços</p></Link></div>
                                 <div className="col px-2"><Link to="/equipa"><img src={Equipa} alt="Equipa" /><p className="text-center">Equipa</p></Link></div>
+                                <div className="col px-2"><Link to="/servicos"><img src={Servicos} alt="Serviços" /><p className="text-center">Serviços</p></Link></div>
                                 <div className="col px-2"><Link to="/contactos"><img src={Contactos} alt="Contactos" /><p className="text-center">Contactos</p></Link></div>
                             </div>
                         </div>

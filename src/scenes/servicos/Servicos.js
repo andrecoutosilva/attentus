@@ -10,9 +10,9 @@ class Servicos extends React.Component {
                 pageImg={ImgServicos}
                 pageTitle="Serviços">
                 <div className="sidebar-box">
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>ÁREAS DE INTERVENÇÃO</h4></p>
-                        <p>A actividade da <strong>ATTENTUS</strong> é desenvolvida actualmente em três
+                        <p>A actividade da <strong>attentus</strong> é desenvolvida actualmente em três
                         valências: Psicologia, Terapia da Fala e Pedopsiquiatria.</p>
                         <div class="accordion" id="accordionAreas">
                             <div class="card">
@@ -77,9 +77,9 @@ class Servicos extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>A QUEM SE DESTINA</h4></p>
-                        <p>Os diferentes serviços que são disponibilizados pela <strong>ATTENTUS</strong> em 
+                        <p>Os diferentes serviços que são disponibilizados pela <strong>attentus</strong> em 
                         cada uma das valências destinam-se a todas as faixas etárias ao longo 
                         do ciclo vital: <strong>crianças</strong>, <strong>jovens</strong> e <strong>adultos</strong>.
                         </p>
@@ -128,9 +128,47 @@ class Servicos extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-5">
                         <p><h4>OUTROS SERVIÇOS PRESTADOS E OUTRAS ACTIVIDADES DESENVOLVIDAS</h4></p>
+                        <p>A <strong>attentus</strong> coloca também à disposição de toda a comunidade outros serviços 
+                        prestados e outras actividades desenvolvidas, um conjunto de respostas 
+                        diferenciadas, desenvolvidas em função de uma população alvo, de uma problemática 
+                        ou de um contexto, específicos.</p>
                         <div class="accordion" id="accordionOutros">
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseConsultadoria" aria-expanded="false" aria-controls="collapseConsultadoria">
+                                    Consultadoria
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseConsultadoria" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOutros">
+                                <div class="card-body">
+                                    A Consultadoria é um dos serviços disponibilizados, em que se procura encontrar, 
+                                    em conjunto com as instituições e com os outros profissionais, as respostas para algumas 
+                                    das suas necessidade, nas áreas de actuação da <strong>attentus</strong> e em função das solicitações que 
+                                    lhe forem dirigidas.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
+                                    Informação/Esclarecimento
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseInfo" class="collapse" aria-labelledby="headingFour" data-parent="#accordionOutros">
+                                <div class="card-body">
+                                    Junto da população em geral, a <strong>attentus</strong> também procura realizar sessões de INFORMAÇÃO e de 
+                                    ESCLARECIMENTO, procurando sensibilizar e alertar para algumas temáticas importantes e 
+                                    para o papel de cada um, individualmente e colectivamente, na área da saúde (física e mental) 
+                                    e da promoção do desenvolvimento e do bem-estar (individual e colectivo).
+                                </div>
+                                </div>
+                            </div>
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h2 class="mb-0">
@@ -159,54 +197,16 @@ class Servicos extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseConsultadoria" aria-expanded="false" aria-controls="collapseConsultadoria">
-                                    Consultadoria
-                                    </button>
-                                </h2>
-                                </div>
-                                <div id="collapseConsultadoria" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOutros">
-                                <div class="card-body">
-                                    A CONSULTADORIA é um dos serviços disponibilizados, em que se procura encontrar, 
-                                    em conjunto com as instituições e com os outros profissionais, as respostas para algumas 
-                                    das suas necessidade, nas áreas de actuação da <strong>ATTENTUS</strong> e em função das solicitações que 
-                                    lhe forem dirigidas.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseInfo" aria-expanded="false" aria-controls="collapseInfo">
-                                    Informação/Esclarecimento
-                                    </button>
-                                </h2>
-                                </div>
-                                <div id="collapseInfo" class="collapse" aria-labelledby="headingFour" data-parent="#accordionOutros">
-                                <div class="card-body">
-                                    Junto da população em geral, a <strong>ATTENTUS</strong> também procura realizar sessões de INFORMAÇÃO e de 
-                                    ESCLARECIMENTO, procurando sensibilizar e alertar para algumas temáticas importantes e 
-                                    para o papel de cada um, individualmente e colectivamente, na área da saúde (física e mental) 
-                                    e da promoção do desenvolvimento e do bem-estar (individual e colectivo).
-                                </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div>
-                        <p>A <strong>ATTENTUS</strong> coloca também à disposição de toda a comunidade outros serviços 
-                        prestados e outras actividades desenvolvidas, um conjunto de respostas 
-                        diferenciadas, desenvolvidas em função de uma população alvo, de uma problemática 
-                        ou de um contexto, específicos.</p>
                         <p>Todas estas iniciativas, podem ser desenvolvidas no domínio do tratamento (terapêutico),
                         da prevenção ou da promoção do desenvolvimento e podem contemplar uma componente de 
                         intervenção, de formação ou ambas.</p>
                         <p>Junto de entidades do poder local, de instituições (de saúde, de educação, etc.) 
                         e de outros profissionais, bem como junto da população em geral, tem por objectivo 
                         colaborar, no sentido de colocar à disposição dos mesmos a diversidade de respostas 
-                        e os saberes que a <strong>ATTENTUS</strong> pode oferecer.</p>
+                        e os saberes que a <strong>attentus</strong> pode oferecer.</p>
                     </div>
                 </div>
             </ContentPage>
