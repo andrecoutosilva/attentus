@@ -13,7 +13,7 @@ class Contacts extends React.Component {
                     <span className="ml-4"><img className="img-fluid" src={brandLar} alt="attentus saúde" /></span>
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <p className="card-text borded-top mr-2 pt-2 pb-2 ">attentus@attentus-saude.pt<br/>915 958 480<br/></p>
+                    <p className="card-text borded-top mr-2 pt-2 pb-2 ">915 958 480<br/></p>
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <p className="card-text borded-top mr-2 pt-2 pb-2">Av. Conde Margaride, nº 352 – 1º B<br/><span>4810-537 Guimarães</span></p>
