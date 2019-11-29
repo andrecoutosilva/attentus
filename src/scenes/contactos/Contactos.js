@@ -11,8 +11,7 @@ class Contactos extends React.Component {
                 pageTitle="Contactos">
                 <div className="row flex-fill text-left">
                     <div className="col-lg-6 col-sm-12">
-                        <p className="card-text mr-2">attentus.saude@attentus.pt<br/>
-                                                915 958 480<br/></p>
+                        <p>Telefone: 915 958 480<br/></p>
                     </div>
                     <div className="col-lg-6 col-sm-12">
                         <p className="card-text mr-2">
