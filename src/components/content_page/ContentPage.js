@@ -16,7 +16,6 @@ class ContentPage extends React.Component {
         };
 
         return (
-
             <div className="p-5" style={negativeMargin}>
                 <div className="row content-page">
                     <div className="col d-flex h-100 flex-column">
