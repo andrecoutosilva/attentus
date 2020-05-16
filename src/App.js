@@ -19,18 +19,18 @@ class App extends Component {
    
     return (
       <Router>
-        <div className="App-Theme-1">    
+        <div className="App-Theme-1 d-flex flex-column h-100">
           <MainNavbar />
-          <div className="container-fluid landing-background">
+          <div className="container-fluid main-content">
             <Route exact={true} path="/"  render={(props) => <Home {...props} />}/>
             <Route path="/quemsomos" component={QuemSomos}/>
             <Route path="/servicos" component={Servicos}/>
             <Route path="/equipa" component={Equipa}/>
             <Route path="/parcerias" component={Parcerias}/>
             <Route path="/noticias" component={Noticias}/>
-            <Route path="/contactos" component={Contactos}/>
-            <Contacts />
+            <Route path="/contactos" component={Contactos}/>  
           </div>
+          <Contacts />
         </div>
       </Router>
     );

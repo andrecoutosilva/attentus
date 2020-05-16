@@ -1,11 +1,19 @@
-.Rose-Background {
-  width: 100%;
-  height: 400px;
-  line-height: 400px;
+
+.jumbotron.rose-background {
   background-image: url("background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.rose-background h1 {
   color: white;
-  /* font-size: 4em; */
+}
+
+@media (min-width: 576px) {
+  .jumbotron.rose-background {
+    padding: 9rem 2rem;
+  }
 }

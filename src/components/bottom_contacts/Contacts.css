@@ -1,19 +1,13 @@
-.landing-bottom-row {
+footer {
   background-color: #efefef;
-  padding: 2rem 1.5rem 2.5rem 1.5rem;  
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
 }
 
-.landing-bottom-row img{
+footer img{
   max-width: 240px;
   margin-top: -3px;
 }
 
-
-.landing-bottom-row .borded-top {
-  border-top: 1px solid gray;
-}
-
-
-.unidade-saude {
-  font-size: 1.1rem;
+footer .border-top {
+  border-color: gray !important;
 }
